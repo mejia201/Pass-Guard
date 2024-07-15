@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA12920C2C0CE859000BB049 /* PasswordHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12920B2C0CE859000BB049 /* PasswordHistory.swift */; };
+		CA1C84042C0797B5008D94F2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C84032C0797B5008D94F2 /* Category.swift */; };
+		CA4522752BFBFB37006A67BA /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4522742BFBFB36006A67BA /* CategoriesView.swift */; };
+		CA4522772BFBFB40006A67BA /* PasswordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4522762BFBFB40006A67BA /* PasswordsView.swift */; };
+		CA4522792BFBFB4D006A67BA /* PlatformsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4522782BFBFB4D006A67BA /* PlatformsView.swift */; };
+		CA45227B2BFBFB59006A67BA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45227A2BFBFB59006A67BA /* HistoryView.swift */; };
+		CA45227D2BFBFBB5006A67BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45227C2BFBFBB5006A67BA /* HomeView.swift */; };
+		CA45227F2BFC0873006A67BA /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45227E2BFC0873006A67BA /* Items.swift */; };
+		CA4522822BFC0A29006A67BA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4522812BFC0A29006A67BA /* TabBarView.swift */; };
+		CA4522842BFC1C96006A67BA /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4522832BFC1C96006A67BA /* HCard.swift */; };
+		CA578D862C02E83000F3D766 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA578D852C02E83000F3D766 /* CustomPicker.swift */; };
+		CA69B0B72C04E95D00B51E3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69B0B62C04E95D00B51E3E /* User.swift */; };
+		CA69B0BB2C04F61300B51E3E /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69B0BA2C04F61300B51E3E /* MainContentView.swift */; };
+		CA69B0BD2C05488B00B51E3E /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69B0BC2C05488B00B51E3E /* PerfilView.swift */; };
+		CA69B0BF2C05738800B51E3E /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69B0BE2C05738800B51E3E /* Dashboard.swift */; };
+		CA6B6AD42C03FB2700C421A1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B6AD32C03FB2700C421A1 /* Helpers.swift */; };
+		CA7AA6DA2C0A4A5D001F3F74 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7AA6D92C0A4A5D001F3F74 /* Password.swift */; };
+		CA8AC7C92BFFBAD900B32E44 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8AC7C82BFFBAD900B32E44 /* CardView.swift */; };
+		CAD9DC002C0838FD008328D7 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9DBFF2C0838FD008328D7 /* Platform.swift */; };
+		CAFF75ED2BFAA87D005A719E /* PassGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF75EC2BFAA87D005A719E /* PassGuardApp.swift */; };
+		CAFF75EF2BFAA87D005A719E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF75EE2BFAA87D005A719E /* ContentView.swift */; };
+		CAFF75F12BFAA87E005A719E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFF75F02BFAA87E005A719E /* Assets.xcassets */; };
+		CAFF75F52BFAA87E005A719E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFF75F42BFAA87E005A719E /* Preview Assets.xcassets */; };
+		CAFF75FC2BFAACE3005A719E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF75FB2BFAACE3005A719E /* LoginView.swift */; };
+		CAFF75FE2BFAACF9005A719E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF75FD2BFAACF9005A719E /* SignUpView.swift */; };
+		CAFF76052BFAC539005A719E /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF76042BFAC539005A719E /* PrincipalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA12920B2C0CE859000BB049 /* PasswordHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordHistory.swift; sourceTree = "<group>"; };
+		CA1C84032C0797B5008D94F2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CA4522742BFBFB36006A67BA /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		CA4522762BFBFB40006A67BA /* PasswordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsView.swift; sourceTree = "<group>"; };
+		CA4522782BFBFB4D006A67BA /* PlatformsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformsView.swift; sourceTree = "<group>"; };
+		CA45227A2BFBFB59006A67BA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		CA45227C2BFBFBB5006A67BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA45227E2BFC0873006A67BA /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		CA4522812BFC0A29006A67BA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CA4522832BFC1C96006A67BA /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		CA578D852C02E83000F3D766 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		CA69B0B62C04E95D00B51E3E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA69B0BA2C04F61300B51E3E /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		CA69B0BC2C05488B00B51E3E /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		CA69B0BE2C05738800B51E3E /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		CA6B6AD32C03FB2700C421A1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CA7AA6D92C0A4A5D001F3F74 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		CA8AC7C82BFFBAD900B32E44 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CAD9DBFF2C0838FD008328D7 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		CAFF75E92BFAA87D005A719E /* PassGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFF75EC2BFAA87D005A719E /* PassGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGuardApp.swift; sourceTree = "<group>"; };
+		CAFF75EE2BFAA87D005A719E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAFF75F02BFAA87E005A719E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFF75F22BFAA87E005A719E /* PassGuard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassGuard.entitlements; sourceTree = "<group>"; };
+		CAFF75F42BFAA87E005A719E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAFF75FB2BFAACE3005A719E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CAFF75FD2BFAACF9005A719E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CAFF76042BFAC539005A719E /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFF75E62BFAA87D005A719E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4522802BFC0A16006A67BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA4522812BFC0A29006A67BA /* TabBarView.swift */,
+				CA4522832BFC1C96006A67BA /* HCard.swift */,
+				CA8AC7C82BFFBAD900B32E44 /* CardView.swift */,
+				CA578D852C02E83000F3D766 /* CustomPicker.swift */,
+				CA6B6AD32C03FB2700C421A1 /* Helpers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CA69B0B52C04E94500B51E3E /* Structurs */ = {
+			isa = PBXGroup;
+			children = (
+				CA69B0B62C04E95D00B51E3E /* User.swift */,
+				CA69B0BE2C05738800B51E3E /* Dashboard.swift */,
+				CA1C84032C0797B5008D94F2 /* Category.swift */,
+				CAD9DBFF2C0838FD008328D7 /* Platform.swift */,
+				CA7AA6D92C0A4A5D001F3F74 /* Password.swift */,
+				CA12920B2C0CE859000BB049 /* PasswordHistory.swift */,
+			);
+			path = Structurs;
+			sourceTree = "<group>";
+		};
+		CAFF75E02BFAA87D005A719E = {
+			isa = PBXGroup;
+			children = (
+				CAFF75EB2BFAA87D005A719E /* PassGuard */,
+				CAFF75EA2BFAA87D005A719E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFF75EA2BFAA87D005A719E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF75E92BFAA87D005A719E /* PassGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFF75EB2BFAA87D005A719E /* PassGuard */ = {
+			isa = PBXGroup;
+			children = (
+				CA69B0B52C04E94500B51E3E /* Structurs */,
+				CA4522802BFC0A16006A67BA /* Components */,
+				CAFF76002BFAB738005A719E /* Files */,
+				CAFF75FF2BFAB724005A719E /* Views */,
+				CAFF75EC2BFAA87D005A719E /* PassGuardApp.swift */,
+				CAFF75F02BFAA87E005A719E /* Assets.xcassets */,
+				CAFF75F22BFAA87E005A719E /* PassGuard.entitlements */,
+				CAFF75F32BFAA87E005A719E /* Preview Content */,
+			);
+			path = PassGuard;
+			sourceTree = "<group>";
+		};
+		CAFF75F32BFAA87E005A719E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF75F42BFAA87E005A719E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAFF75FF2BFAB724005A719E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF75FB2BFAACE3005A719E /* LoginView.swift */,
+				CAFF75FD2BFAACF9005A719E /* SignUpView.swift */,
+				CAFF75EE2BFAA87D005A719E /* ContentView.swift */,
+				CAFF76042BFAC539005A719E /* PrincipalView.swift */,
+				CA4522742BFBFB36006A67BA /* CategoriesView.swift */,
+				CA4522762BFBFB40006A67BA /* PasswordsView.swift */,
+				CA4522782BFBFB4D006A67BA /* PlatformsView.swift */,
+				CA45227A2BFBFB59006A67BA /* HistoryView.swift */,
+				CA45227C2BFBFBB5006A67BA /* HomeView.swift */,
+				CA69B0BA2C04F61300B51E3E /* MainContentView.swift */,
+				CA69B0BC2C05488B00B51E3E /* PerfilView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAFF76002BFAB738005A719E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA45227E2BFC0873006A67BA /* Items.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFF75E82BFAA87D005A719E /* PassGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFF75F82BFAA87E005A719E /* Build configuration list for PBXNativeTarget "PassGuard" */;
+			buildPhases = (
+				CAFF75E52BFAA87D005A719E /* Sources */,
+				CAFF75E62BFAA87D005A719E /* Frameworks */,
+				CAFF75E72BFAA87D005A719E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassGuard;
+			productName = PassGuard;
+			productReference = CAFF75E92BFAA87D005A719E /* PassGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFF75E12BFAA87D005A719E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAFF75E82BFAA87D005A719E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CAFF75E42BFAA87D005A719E /* Build configuration list for PBXProject "PassGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFF75E02BFAA87D005A719E;
+			productRefGroup = CAFF75EA2BFAA87D005A719E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFF75E82BFAA87D005A719E /* PassGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFF75E72BFAA87D005A719E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF75F52BFAA87E005A719E /* Preview Assets.xcassets in Resources */,
+				CAFF75F12BFAA87E005A719E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFF75E52BFAA87D005A719E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8AC7C92BFFBAD900B32E44 /* CardView.swift in Sources */,
+				CA4522842BFC1C96006A67BA /* HCard.swift in Sources */,
+				CA69B0BF2C05738800B51E3E /* Dashboard.swift in Sources */,
+				CAFF76052BFAC539005A719E /* PrincipalView.swift in Sources */,
+				CA4522792BFBFB4D006A67BA /* PlatformsView.swift in Sources */,
+				CAFF75FE2BFAACF9005A719E /* SignUpView.swift in Sources */,
+				CAD9DC002C0838FD008328D7 /* Platform.swift in Sources */,
+				CA69B0BB2C04F61300B51E3E /* MainContentView.swift in Sources */,
+				CA578D862C02E83000F3D766 /* CustomPicker.swift in Sources */,
+				CA45227D2BFBFBB5006A67BA /* HomeView.swift in Sources */,
+				CA69B0B72C04E95D00B51E3E /* User.swift in Sources */,
+				CA4522752BFBFB37006A67BA /* CategoriesView.swift in Sources */,
+				CA45227F2BFC0873006A67BA /* Items.swift in Sources */,
+				CA12920C2C0CE859000BB049 /* PasswordHistory.swift in Sources */,
+				CAFF75FC2BFAACE3005A719E /* LoginView.swift in Sources */,
+				CA4522772BFBFB40006A67BA /* PasswordsView.swift in Sources */,
+				CA6B6AD42C03FB2700C421A1 /* Helpers.swift in Sources */,
+				CA69B0BD2C05488B00B51E3E /* PerfilView.swift in Sources */,
+				CAFF75EF2BFAA87D005A719E /* ContentView.swift in Sources */,
+				CA45227B2BFBFB59006A67BA /* HistoryView.swift in Sources */,
+				CA4522822BFC0A29006A67BA /* TabBarView.swift in Sources */,
+				CAFF75ED2BFAA87D005A719E /* PassGuardApp.swift in Sources */,
+				CA7AA6DA2C0A4A5D001F3F74 /* Password.swift in Sources */,
+				CA1C84042C0797B5008D94F2 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAFF75F62BFAA87E005A719E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFF75F72BFAA87E005A719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CAFF75F92BFAA87E005A719E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassGuard/PassGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = JMHKPG3CSA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.catolica.sv.PassGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFF75FA2BFAA87E005A719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassGuard/PassGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = JMHKPG3CSA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.catolica.sv.PassGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFF75E42BFAA87D005A719E /* Build configuration list for PBXProject "PassGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF75F62BFAA87E005A719E /* Debug */,
+				CAFF75F72BFAA87E005A719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFF75F82BFAA87E005A719E /* Build configuration list for PBXNativeTarget "PassGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF75F92BFAA87E005A719E /* Debug */,
+				CAFF75FA2BFAA87E005A719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFF75E12BFAA87D005A719E /* Project object */;
+}
